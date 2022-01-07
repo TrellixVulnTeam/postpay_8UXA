@@ -1,0 +1,37 @@
+{
+  "build": "py39hdf13c20_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.5.0,<3.5.1.0a0",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39",
+    "tornado"
+  ],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniforge/base/pkgs/matplotlib-3.5.0-py39hdf13c20_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.5.0-py39hdf13c20_0.tar.bz2",
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniforge/base/pkgs/matplotlib-3.5.0-py39hdf13c20_0",
+    "type": 1
+  },
+  "md5": "fa3f2bc5ae0ddadc0e1811f5e19ce658",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniforge/base/pkgs/matplotlib-3.5.0-py39hdf13c20_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "b0e651d4da5bea5a5c2993648f438f1163c553d13b7996c966c6c94b8e498e5c",
+  "size": 6503,
+  "subdir": "osx-arm64",
+  "timestamp": 1637205791273,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/matplotlib-3.5.0-py39hdf13c20_0.tar.bz2",
+  "version": "3.5.0"
+}

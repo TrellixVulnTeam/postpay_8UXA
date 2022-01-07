@@ -1,0 +1,8 @@
+{
+    "split_dict": {
+        "train_size": 0.8,
+        "valid_size": 0.1,
+        "test_size": 0.1,
+        "target_col": "is_fraud"
+    }
+}

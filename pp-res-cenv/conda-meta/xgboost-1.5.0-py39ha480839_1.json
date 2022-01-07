@@ -1,0 +1,37 @@
+{
+  "build": "py39ha480839_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "llvm-openmp >=11.1.0",
+    "py-xgboost 1.5.0 py39h2804cbe_1",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniforge/base/pkgs/xgboost-1.5.0-py39ha480839_1",
+  "features": "",
+  "files": [],
+  "fn": "xgboost-1.5.0-py39ha480839_1.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniforge/base/pkgs/xgboost-1.5.0-py39ha480839_1",
+    "type": 1
+  },
+  "md5": "a4803fbd5d4409e7dc6ebf2a9c4c737d",
+  "name": "xgboost",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniforge/base/pkgs/xgboost-1.5.0-py39ha480839_1.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "xgboost",
+  "sha256": "46328f3a03283383e292ab2c3f2e05698afab20ee31bb2e94bdaaf8f1494a2cd",
+  "size": 12139,
+  "subdir": "osx-arm64",
+  "timestamp": 1637428018096,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/xgboost-1.5.0-py39ha480839_1.tar.bz2",
+  "version": "1.5.0"
+}

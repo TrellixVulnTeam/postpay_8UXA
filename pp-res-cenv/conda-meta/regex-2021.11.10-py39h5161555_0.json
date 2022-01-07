@@ -1,0 +1,176 @@
+{
+  "build": "py39h5161555_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "python >=3.9,<3.10.0a0 *_cpython",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniforge/base/pkgs/regex-2021.11.10-py39h5161555_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/regex-2021.11.10.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/regex-2021.11.10.dist-info/LICENSE.txt",
+    "lib/python3.9/site-packages/regex-2021.11.10.dist-info/METADATA",
+    "lib/python3.9/site-packages/regex-2021.11.10.dist-info/RECORD",
+    "lib/python3.9/site-packages/regex-2021.11.10.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/regex-2021.11.10.dist-info/WHEEL",
+    "lib/python3.9/site-packages/regex-2021.11.10.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/regex-2021.11.10.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/regex/__init__.py",
+    "lib/python3.9/site-packages/regex/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/regex/__pycache__/_regex_core.cpython-39.pyc",
+    "lib/python3.9/site-packages/regex/__pycache__/regex.cpython-39.pyc",
+    "lib/python3.9/site-packages/regex/__pycache__/test_regex.cpython-39.pyc",
+    "lib/python3.9/site-packages/regex/_regex.cpython-39-darwin.so",
+    "lib/python3.9/site-packages/regex/_regex_core.py",
+    "lib/python3.9/site-packages/regex/regex.py",
+    "lib/python3.9/site-packages/regex/test_regex.py"
+  ],
+  "fn": "regex-2021.11.10-py39h5161555_0.tar.bz2",
+  "license": "Python-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniforge/base/pkgs/regex-2021.11.10-py39h5161555_0",
+    "type": 1
+  },
+  "md5": "1203a3302a81553f73d32927510a03d2",
+  "name": "regex",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniforge/base/pkgs/regex-2021.11.10-py39h5161555_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/regex-2021.11.10.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex-2021.11.10.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "bff55ef4cdcc8c14ce259f8e8ab60e264418440d6335f4dc138273fbd506144d",
+        "sha256_in_prefix": "bff55ef4cdcc8c14ce259f8e8ab60e264418440d6335f4dc138273fbd506144d",
+        "size_in_bytes": 11584
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex-2021.11.10.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7d5bc461f0e3afaee04aa31e974e329e3b36c2746a6409dcd44f8dc9b639ef5e",
+        "sha256_in_prefix": "7d5bc461f0e3afaee04aa31e974e329e3b36c2746a6409dcd44f8dc9b639ef5e",
+        "size_in_bytes": 39197
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex-2021.11.10.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e1f84b3996d83616fe120d6d199adc7397e83239b16ac3a9f8101ea568ff0443",
+        "sha256_in_prefix": "e1f84b3996d83616fe120d6d199adc7397e83239b16ac3a9f8101ea568ff0443",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex-2021.11.10.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex-2021.11.10.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f39fd3a2ae1423b119d6cf35c1a611e913cdb159cdd4d9823404ae4b2dfb2271",
+        "sha256_in_prefix": "f39fd3a2ae1423b119d6cf35c1a611e913cdb159cdd4d9823404ae4b2dfb2271",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex-2021.11.10.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1df59c7c26960081d2d5ea2b90b8c25f499fba94148720142450deea9021bb7d",
+        "sha256_in_prefix": "1df59c7c26960081d2d5ea2b90b8c25f499fba94148720142450deea9021bb7d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex-2021.11.10.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6909a20cc84d4c5dba7022b8ffb0fea9a56f85bc42946d30c824e7121933601b",
+        "sha256_in_prefix": "6909a20cc84d4c5dba7022b8ffb0fea9a56f85bc42946d30c824e7121933601b",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f6c94d4046f848267d2e770dcdc42faa6932c5795c38017b4300308a0c568ecc",
+        "sha256_in_prefix": "f6c94d4046f848267d2e770dcdc42faa6932c5795c38017b4300308a0c568ecc",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "58af1800b0a0b47638ccbeeda73283a11d4f902543532ace0da8191c0827679a",
+        "sha256_in_prefix": "58af1800b0a0b47638ccbeeda73283a11d4f902543532ace0da8191c0827679a",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex/__pycache__/_regex_core.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2af35a3ea03b40db2f6caa5752c7e66d5ac623c1feea1016e12f4c0ed34b838",
+        "sha256_in_prefix": "a2af35a3ea03b40db2f6caa5752c7e66d5ac623c1feea1016e12f4c0ed34b838",
+        "size_in_bytes": 111980
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex/__pycache__/regex.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ec48896bea96e4b64eca485396b0d784b20b435d84da904e0163647492a5719",
+        "sha256_in_prefix": "1ec48896bea96e4b64eca485396b0d784b20b435d84da904e0163647492a5719",
+        "size_in_bytes": 25402
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex/__pycache__/test_regex.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "85a13b6c5ec076cf899df0467a1d6f2870865fbedef7f1ad03fd1e18363b0ce5",
+        "sha256_in_prefix": "85a13b6c5ec076cf899df0467a1d6f2870865fbedef7f1ad03fd1e18363b0ce5",
+        "size_in_bytes": 136352
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex/_regex.cpython-39-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/regex_1636504423170/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "42e09602397c9d68e276854e77df661722e2b26d4996e0aa6dbc7118de7a4c64",
+        "sha256_in_prefix": "04603fcdc0284e91d997e3b80c63dbb894a1c61944653313ffc036af62a14571",
+        "size_in_bytes": 730416
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex/_regex_core.py",
+        "path_type": "hardlink",
+        "sha256": "549c022e740772806ea46015179266a1917d87f7ef0436c513a5d389dac093a7",
+        "sha256_in_prefix": "549c022e740772806ea46015179266a1917d87f7ef0436c513a5d389dac093a7",
+        "size_in_bytes": 140266
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex/regex.py",
+        "path_type": "hardlink",
+        "sha256": "dcc440f86331ba259b623c231860114001f6703f9cf284ac4684769ecb574159",
+        "sha256_in_prefix": "dcc440f86331ba259b623c231860114001f6703f9cf284ac4684769ecb574159",
+        "size_in_bytes": 32544
+      },
+      {
+        "_path": "lib/python3.9/site-packages/regex/test_regex.py",
+        "path_type": "hardlink",
+        "sha256": "a4461a56ec2d3782433db10563a408ffde344c4dd6e0c9fb64da1906a3e29527",
+        "sha256_in_prefix": "a4461a56ec2d3782433db10563a408ffde344c4dd6e0c9fb64da1906a3e29527",
+        "size_in_bytes": 218818
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "774ea440533b2581e21d52c22f7bc82ac43c41fd51ce9eacdbfce16fc366320d",
+  "size": 355092,
+  "subdir": "osx-arm64",
+  "timestamp": 1636504611224,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/regex-2021.11.10-py39h5161555_0.tar.bz2",
+  "version": "2021.11.10"
+}

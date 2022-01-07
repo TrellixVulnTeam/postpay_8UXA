@@ -1,0 +1,202 @@
+{
+  "build": "py39h5161555_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "python >=3.9,<3.10.0a0 *_cpython",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniforge/base/pkgs/typed-ast-1.5.0-py39h5161555_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/typed_ast/__init__.py",
+    "lib/python3.9/site-packages/typed_ast/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/typed_ast/__pycache__/ast27.cpython-39.pyc",
+    "lib/python3.9/site-packages/typed_ast/__pycache__/ast3.cpython-39.pyc",
+    "lib/python3.9/site-packages/typed_ast/__pycache__/conversions.cpython-39.pyc",
+    "lib/python3.9/site-packages/typed_ast/_ast27.cpython-39-darwin.so",
+    "lib/python3.9/site-packages/typed_ast/_ast3.cpython-39-darwin.so",
+    "lib/python3.9/site-packages/typed_ast/ast27.py",
+    "lib/python3.9/site-packages/typed_ast/ast3.py",
+    "lib/python3.9/site-packages/typed_ast/conversions.py",
+    "lib/python3.9/site-packages/typed_ast/tests/__pycache__/test_basics.cpython-39.pyc",
+    "lib/python3.9/site-packages/typed_ast/tests/test_basics.py"
+  ],
+  "fn": "typed-ast-1.5.0-py39h5161555_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniforge/base/pkgs/typed-ast-1.5.0-py39h5161555_0",
+    "type": 1
+  },
+  "md5": "233a767473960fdd2cb4ff7581ce8852",
+  "name": "typed-ast",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniforge/base/pkgs/typed-ast-1.5.0-py39h5161555_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3f07c33e21c93a2dbf4fa239d1fc626268a5b081e8b79aca3b8f0a47b050f14c",
+        "sha256_in_prefix": "3f07c33e21c93a2dbf4fa239d1fc626268a5b081e8b79aca3b8f0a47b050f14c",
+        "size_in_bytes": 15191
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9e6e7cbf0e6a13a9fd2a33a7049e57453ebf79cfde032e61acd52aa0ecd9eade",
+        "sha256_in_prefix": "9e6e7cbf0e6a13a9fd2a33a7049e57453ebf79cfde032e61acd52aa0ecd9eade",
+        "size_in_bytes": 1477
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "38d39d8095d4fed0db3a6af3d21ea06c7e07dc6d04430e9369b84986484e19bf",
+        "sha256_in_prefix": "38d39d8095d4fed0db3a6af3d21ea06c7e07dc6d04430e9369b84986484e19bf",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f39fd3a2ae1423b119d6cf35c1a611e913cdb159cdd4d9823404ae4b2dfb2271",
+        "sha256_in_prefix": "f39fd3a2ae1423b119d6cf35c1a611e913cdb159cdd4d9823404ae4b2dfb2271",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "aa96dadda8903be42833527631b029b609f817d62353b1070626bb943cd2b135",
+        "sha256_in_prefix": "aa96dadda8903be42833527631b029b609f817d62353b1070626bb943cd2b135",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast-1.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2c2981ca0616068eaaa88a1a64d89ca3153e0cef6047626f8509152704b23759",
+        "sha256_in_prefix": "2c2981ca0616068eaaa88a1a64d89ca3153e0cef6047626f8509152704b23759",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5fda537861c8619b433a67dbf699e7d8312a599300c9a3e5a9d170121b2e4af9",
+        "sha256_in_prefix": "5fda537861c8619b433a67dbf699e7d8312a599300c9a3e5a9d170121b2e4af9",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b033d774108f2e0469c7f9060703b5ecb6d909828c03f5d6ea4f68f5ab302d20",
+        "sha256_in_prefix": "b033d774108f2e0469c7f9060703b5ecb6d909828c03f5d6ea4f68f5ab302d20",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/__pycache__/ast27.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "94c196d792f83717f9125462d574dba437493c486bd2b95720f4bc49c0743500",
+        "sha256_in_prefix": "94c196d792f83717f9125462d574dba437493c486bd2b95720f4bc49c0743500",
+        "size_in_bytes": 12411
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/__pycache__/ast3.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5014c56d80f1225f70e7a131f001de8a667b208affba56847c80cc814ec03d6",
+        "sha256_in_prefix": "b5014c56d80f1225f70e7a131f001de8a667b208affba56847c80cc814ec03d6",
+        "size_in_bytes": 13318
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/__pycache__/conversions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "07e73fde459e8250831590910b55eaca7383d82bfa45fca9b741ab01dadaceb6",
+        "sha256_in_prefix": "07e73fde459e8250831590910b55eaca7383d82bfa45fca9b741ab01dadaceb6",
+        "size_in_bytes": 7906
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/_ast27.cpython-39-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/typed-ast_1636834427329/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "85167e7a911e64f710b8e56ef9f0a04d0418be38bbff9261631d27947d0c6213",
+        "sha256_in_prefix": "6f5c7075ca951be3d44c4fcc79d57d8dee95617b9f01935b35b0b76d18d8a9d0",
+        "size_in_bytes": 253408
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/_ast3.cpython-39-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/typed-ast_1636834427329/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "35700e28bb253daf31c11fff1c38147b6d54442c6ac8c8ed6b44090a1840c3ea",
+        "sha256_in_prefix": "7a237add80bb1f94623cbe3196a16b22a2e61c402da0197a6f8273d8d10e27e2",
+        "size_in_bytes": 293776
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/ast27.py",
+        "path_type": "hardlink",
+        "sha256": "328b8d9a5494208344ca5dcb05aefde835c1bd934e8e8e7e8023f3a184436f54",
+        "sha256_in_prefix": "328b8d9a5494208344ca5dcb05aefde835c1bd934e8e8e7e8023f3a184436f54",
+        "size_in_bytes": 12630
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/ast3.py",
+        "path_type": "hardlink",
+        "sha256": "d856ffd135249f19833f30573d87b55e41a124bd49c5e476ccb8af5882374ea2",
+        "sha256_in_prefix": "d856ffd135249f19833f30573d87b55e41a124bd49c5e476ccb8af5882374ea2",
+        "size_in_bytes": 13761
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/conversions.py",
+        "path_type": "hardlink",
+        "sha256": "27dc010c283e8adddcc5f4a72003169c10e2c0bca97d105ced14dfb51226c1a9",
+        "sha256_in_prefix": "27dc010c283e8adddcc5f4a72003169c10e2c0bca97d105ced14dfb51226c1a9",
+        "size_in_bytes": 8632
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/tests/__pycache__/test_basics.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "43fb1797b8a9eae507185118e3ec32874475329e4288ef35f9896efe9d26d090",
+        "sha256_in_prefix": "43fb1797b8a9eae507185118e3ec32874475329e4288ef35f9896efe9d26d090",
+        "size_in_bytes": 7406
+      },
+      {
+        "_path": "lib/python3.9/site-packages/typed_ast/tests/test_basics.py",
+        "path_type": "hardlink",
+        "sha256": "d9a4263977ea2b204d695a41f4579890ca925b2f50cf5686c150acef422b0caa",
+        "sha256_in_prefix": "d9a4263977ea2b204d695a41f4579890ca925b2f50cf5686c150acef422b0caa",
+        "size_in_bytes": 7516
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ea0579d09805a3358108ff987376e27005d9bab2a88ecb85ee3cd9567b2ab1fe",
+  "size": 198480,
+  "subdir": "osx-arm64",
+  "timestamp": 1636834617630,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/typed-ast-1.5.0-py39h5161555_0.tar.bz2",
+  "version": "1.5.0"
+}

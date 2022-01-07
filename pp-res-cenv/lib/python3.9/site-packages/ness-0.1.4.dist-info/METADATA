@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: ness
+Version: 0.1.4
+Summary: A Python datalake client.
+Home-page: https://github.com/postpayio/ness
+License: MIT
+Keywords: ness,datalake,s3,pandas
+Author: Dani
+Author-email: dani@postpay.io
+Requires-Python: >=3.7.1,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: click (>=8.0.0)
+Requires-Dist: pandas (>=0.18.1)
+Project-URL: Repository, https://github.com/postpayio/ness
+Description-Content-Type: text/markdown
+
+# Ness
+
+<p align="center">
+    <em>A Python datalake client.</em>
+</p>
+<p align="center">
+    <a href="https://github.com/postpayio/ness/actions">
+        <img src="https://github.com/postpayio/ness/actions/workflows/test-suite.yml/badge.svg" alt="Test">
+    </a>
+    <a href="https://codecov.io/gh/postpayio/ness">
+        <img src="https://img.shields.io/codecov/c/github/postpayio/ness?color=%2334D058" alt="Coverage">
+    </a>
+    <a href="https://pypi.org/project/ness">
+        <img src="https://img.shields.io/pypi/v/ness" alt="Package version">
+    </a>
+</p>
+
+## Requirements
+
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+## Installation
+
+```sh
+pip install pyarrow ness
+```
+
+## Quickstart
+
+```py
+import ness
+
+dl = ness.dl(bucket="mybucket", key="mydatalake")
+df = dl.read("mytable")
+```
+
+## Sync
+
+```py
+# Sync all tables
+dl.sync()
+
+# Sync a single table
+dl.sync("mytable")
+
+# Sync and read a single table
+df = dl.read("mytable", sync=True)
+```
+
+## Format
+
+Specify the input data source format, the default format is `parquet`:
+
+```py
+import ness
+
+dl = ness.dl(bucket="mybucket", key="mydatalake", format="csv")
+```
+
+## AWS Profile
+
+Files are synced using `default` AWS profile, you can configure another one:
+
+```py
+import ness
+
+dl = ness.dl(bucket="mybucket", key="mydatalake", profile="myprofile")
+```
+
+## Command Line
+
+```
+Usage: ness sync [OPTIONS] S3_URI
+
+Options:
+  --format TEXT   Data lake source format.
+  --profile TEXT  AWS profile.
+  --table TEXT    Table name to sync.
+  --help          Show this message and exit.
+```
+
+```sh
+ness sync bucket/key --table mytable
+```
+

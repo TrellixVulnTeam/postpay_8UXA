@@ -1,0 +1,32 @@
+{
+  "build": "cpu_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniforge/base/pkgs/_py-xgboost-mutex-2.0-cpu_0",
+  "features": "",
+  "files": [],
+  "fn": "_py-xgboost-mutex-2.0-cpu_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniforge/base/pkgs/_py-xgboost-mutex-2.0-cpu_0",
+    "type": 1
+  },
+  "md5": "1a751190779dc4a6389bb986c293684c",
+  "name": "_py-xgboost-mutex",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniforge/base/pkgs/_py-xgboost-mutex-2.0-cpu_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6592e1ed84e29d9ee648bb975f6643c232a107a1c621f86bd93945a8dca18ecd",
+  "size": 11850,
+  "subdir": "osx-arm64",
+  "timestamp": 1635105549334,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/_py-xgboost-mutex-2.0-cpu_0.tar.bz2",
+  "version": "2.0"
+}

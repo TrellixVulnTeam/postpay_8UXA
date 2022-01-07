@@ -1,0 +1,882 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.18.2",
+    "pandas >=1.0.3",
+    "python >=3.6",
+    "scikit-learn >=0.22.2",
+    "scipy >=1.4.1",
+    "statsmodels >=0.11.1"
+  ],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniforge/base/pkgs/feature_engine-1.1.2-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/feature_engine-1.1.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/feature_engine-1.1.2.dist-info/LICENSE.md",
+    "lib/python3.9/site-packages/feature_engine-1.1.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/feature_engine-1.1.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/feature_engine-1.1.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/feature_engine-1.1.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/feature_engine-1.1.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/feature_engine-1.1.2.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/feature_engine/VERSION",
+    "lib/python3.9/site-packages/feature_engine/__init__.py",
+    "lib/python3.9/site-packages/feature_engine/base_transformers.py",
+    "lib/python3.9/site-packages/feature_engine/creation/__init__.py",
+    "lib/python3.9/site-packages/feature_engine/creation/combine_with_reference_feature.py",
+    "lib/python3.9/site-packages/feature_engine/creation/cyclical.py",
+    "lib/python3.9/site-packages/feature_engine/creation/mathematical_combination.py",
+    "lib/python3.9/site-packages/feature_engine/dataframe_checks.py",
+    "lib/python3.9/site-packages/feature_engine/discretisation/__init__.py",
+    "lib/python3.9/site-packages/feature_engine/discretisation/arbitrary.py",
+    "lib/python3.9/site-packages/feature_engine/discretisation/decision_tree.py",
+    "lib/python3.9/site-packages/feature_engine/discretisation/equal_frequency.py",
+    "lib/python3.9/site-packages/feature_engine/discretisation/equal_width.py",
+    "lib/python3.9/site-packages/feature_engine/encoding/__init__.py",
+    "lib/python3.9/site-packages/feature_engine/encoding/base_encoder.py",
+    "lib/python3.9/site-packages/feature_engine/encoding/count_frequency.py",
+    "lib/python3.9/site-packages/feature_engine/encoding/decision_tree.py",
+    "lib/python3.9/site-packages/feature_engine/encoding/mean_encoding.py",
+    "lib/python3.9/site-packages/feature_engine/encoding/one_hot.py",
+    "lib/python3.9/site-packages/feature_engine/encoding/ordinal.py",
+    "lib/python3.9/site-packages/feature_engine/encoding/probability_ratio.py",
+    "lib/python3.9/site-packages/feature_engine/encoding/rare_label.py",
+    "lib/python3.9/site-packages/feature_engine/encoding/woe.py",
+    "lib/python3.9/site-packages/feature_engine/imputation/__init__.py",
+    "lib/python3.9/site-packages/feature_engine/imputation/arbitrary_number.py",
+    "lib/python3.9/site-packages/feature_engine/imputation/base_imputer.py",
+    "lib/python3.9/site-packages/feature_engine/imputation/categorical.py",
+    "lib/python3.9/site-packages/feature_engine/imputation/drop_missing_data.py",
+    "lib/python3.9/site-packages/feature_engine/imputation/end_tail.py",
+    "lib/python3.9/site-packages/feature_engine/imputation/mean_median.py",
+    "lib/python3.9/site-packages/feature_engine/imputation/missing_indicator.py",
+    "lib/python3.9/site-packages/feature_engine/imputation/random_sample.py",
+    "lib/python3.9/site-packages/feature_engine/outliers/__init__.py",
+    "lib/python3.9/site-packages/feature_engine/outliers/artbitrary.py",
+    "lib/python3.9/site-packages/feature_engine/outliers/base_outlier.py",
+    "lib/python3.9/site-packages/feature_engine/outliers/trimmer.py",
+    "lib/python3.9/site-packages/feature_engine/outliers/winsorizer.py",
+    "lib/python3.9/site-packages/feature_engine/parameter_checks.py",
+    "lib/python3.9/site-packages/feature_engine/selection/__init__.py",
+    "lib/python3.9/site-packages/feature_engine/selection/base_selector.py",
+    "lib/python3.9/site-packages/feature_engine/selection/drop_constant_features.py",
+    "lib/python3.9/site-packages/feature_engine/selection/drop_correlated_features.py",
+    "lib/python3.9/site-packages/feature_engine/selection/drop_duplicate_features.py",
+    "lib/python3.9/site-packages/feature_engine/selection/drop_features.py",
+    "lib/python3.9/site-packages/feature_engine/selection/recursive_feature_addition.py",
+    "lib/python3.9/site-packages/feature_engine/selection/recursive_feature_elimination.py",
+    "lib/python3.9/site-packages/feature_engine/selection/shuffle_features.py",
+    "lib/python3.9/site-packages/feature_engine/selection/single_feature_performance.py",
+    "lib/python3.9/site-packages/feature_engine/selection/smart_correlation_selection.py",
+    "lib/python3.9/site-packages/feature_engine/selection/target_mean_selection.py",
+    "lib/python3.9/site-packages/feature_engine/transformation/__init__.py",
+    "lib/python3.9/site-packages/feature_engine/transformation/boxcox.py",
+    "lib/python3.9/site-packages/feature_engine/transformation/log.py",
+    "lib/python3.9/site-packages/feature_engine/transformation/power.py",
+    "lib/python3.9/site-packages/feature_engine/transformation/reciprocal.py",
+    "lib/python3.9/site-packages/feature_engine/transformation/yeojohnson.py",
+    "lib/python3.9/site-packages/feature_engine/validation.py",
+    "lib/python3.9/site-packages/feature_engine/variable_manipulation.py",
+    "lib/python3.9/site-packages/feature_engine/wrappers/__init__.py",
+    "lib/python3.9/site-packages/feature_engine/wrappers/wrappers.py",
+    "lib/python3.9/site-packages/feature_engine/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/__pycache__/base_transformers.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/creation/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/creation/__pycache__/combine_with_reference_feature.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/creation/__pycache__/cyclical.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/creation/__pycache__/mathematical_combination.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/__pycache__/dataframe_checks.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/discretisation/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/discretisation/__pycache__/arbitrary.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/discretisation/__pycache__/decision_tree.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/discretisation/__pycache__/equal_frequency.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/discretisation/__pycache__/equal_width.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/base_encoder.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/count_frequency.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/decision_tree.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/mean_encoding.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/one_hot.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/ordinal.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/probability_ratio.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/rare_label.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/woe.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/arbitrary_number.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/base_imputer.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/categorical.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/drop_missing_data.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/end_tail.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/mean_median.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/missing_indicator.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/random_sample.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/outliers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/outliers/__pycache__/artbitrary.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/outliers/__pycache__/base_outlier.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/outliers/__pycache__/trimmer.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/outliers/__pycache__/winsorizer.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/__pycache__/parameter_checks.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/base_selector.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/drop_constant_features.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/drop_correlated_features.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/drop_duplicate_features.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/drop_features.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/recursive_feature_addition.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/recursive_feature_elimination.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/shuffle_features.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/single_feature_performance.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/smart_correlation_selection.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/selection/__pycache__/target_mean_selection.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/boxcox.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/log.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/power.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/reciprocal.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/yeojohnson.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/__pycache__/validation.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/__pycache__/variable_manipulation.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/wrappers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/feature_engine/wrappers/__pycache__/wrappers.cpython-39.pyc"
+  ],
+  "fn": "feature_engine-1.1.2-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniforge/base/pkgs/feature_engine-1.1.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b9d5bfc217a7257cd7711575351b0346",
+  "name": "feature_engine",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniforge/base/pkgs/feature_engine-1.1.2-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/feature_engine-1.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/feature_engine-1.1.2.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "48387d7d8bf5b6f3048ae967f225525a001711f84b16eb8f9e014d573176e1f2",
+        "sha256_in_prefix": "48387d7d8bf5b6f3048ae967f225525a001711f84b16eb8f9e014d573176e1f2",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "site-packages/feature_engine-1.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b450b6d05c8885cbbf27ed050b1c665b06804364afe93b6967c60ab9639eecd6",
+        "sha256_in_prefix": "b450b6d05c8885cbbf27ed050b1c665b06804364afe93b6967c60ab9639eecd6",
+        "size_in_bytes": 8701
+      },
+      {
+        "_path": "site-packages/feature_engine-1.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "22d6f6091617ac8565de19b6a8c3e58c4a3d1cc26214fb00f1aebc72e666ffcc",
+        "sha256_in_prefix": "22d6f6091617ac8565de19b6a8c3e58c4a3d1cc26214fb00f1aebc72e666ffcc",
+        "size_in_bytes": 10710
+      },
+      {
+        "_path": "site-packages/feature_engine-1.1.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/feature_engine-1.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/feature_engine-1.1.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "96d46526bb633bce78b4e08fd7d818d9dae98c32eec3f192228e47f07766a57b",
+        "sha256_in_prefix": "96d46526bb633bce78b4e08fd7d818d9dae98c32eec3f192228e47f07766a57b",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/feature_engine-1.1.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f636f0054daa2055114a3c2d0bf5bca812d1ed6c1a8379c56bd2ddaac54f5259",
+        "sha256_in_prefix": "f636f0054daa2055114a3c2d0bf5bca812d1ed6c1a8379c56bd2ddaac54f5259",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/feature_engine/VERSION",
+        "path_type": "hardlink",
+        "sha256": "77123b8e4bdbd54505bf6e8021527ac60281602a06fe307564532c4dba39dbca",
+        "sha256_in_prefix": "77123b8e4bdbd54505bf6e8021527ac60281602a06fe307564532c4dba39dbca",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/feature_engine/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3b3e6ea78680c93c85b0af0ff08ffbef57dbedbb898053393bce3fd4ac712f61",
+        "sha256_in_prefix": "3b3e6ea78680c93c85b0af0ff08ffbef57dbedbb898053393bce3fd4ac712f61",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "site-packages/feature_engine/base_transformers.py",
+        "path_type": "hardlink",
+        "sha256": "06728cbca61d1432bc3ccafb4050e575fb5dbb00fc95f0be693970c342c2038a",
+        "sha256_in_prefix": "06728cbca61d1432bc3ccafb4050e575fb5dbb00fc95f0be693970c342c2038a",
+        "size_in_bytes": 4689
+      },
+      {
+        "_path": "site-packages/feature_engine/creation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ad57fc4aa363fce4150557217f093539140d4f558a6dd513f39e82b8ff3e0cd4",
+        "sha256_in_prefix": "ad57fc4aa363fce4150557217f093539140d4f558a6dd513f39e82b8ff3e0cd4",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "site-packages/feature_engine/creation/combine_with_reference_feature.py",
+        "path_type": "hardlink",
+        "sha256": "a8e04f6fb9cee51e09ff84922a169f5ca918cae04f90b76e6d93ac7f50827d00",
+        "sha256_in_prefix": "a8e04f6fb9cee51e09ff84922a169f5ca918cae04f90b76e6d93ac7f50827d00",
+        "size_in_bytes": 13923
+      },
+      {
+        "_path": "site-packages/feature_engine/creation/cyclical.py",
+        "path_type": "hardlink",
+        "sha256": "3df4371eaafa8b00805aec38987f4992fe8e6a87ae1cb1e620b5bda01a627132",
+        "sha256_in_prefix": "3df4371eaafa8b00805aec38987f4992fe8e6a87ae1cb1e620b5bda01a627132",
+        "size_in_bytes": 5811
+      },
+      {
+        "_path": "site-packages/feature_engine/creation/mathematical_combination.py",
+        "path_type": "hardlink",
+        "sha256": "8e8b5ae34bf81d0aae7a4c85f636af8f0449f6f447ae9b904d1f4154592cdf77",
+        "sha256_in_prefix": "8e8b5ae34bf81d0aae7a4c85f636af8f0449f6f447ae9b904d1f4154592cdf77",
+        "size_in_bytes": 12597
+      },
+      {
+        "_path": "site-packages/feature_engine/dataframe_checks.py",
+        "path_type": "hardlink",
+        "sha256": "1415def37a47f9be419bcc21aebc004ba4492b856e06c8cb46093b491313e2bf",
+        "sha256_in_prefix": "1415def37a47f9be419bcc21aebc004ba4492b856e06c8cb46093b491313e2bf",
+        "size_in_bytes": 3619
+      },
+      {
+        "_path": "site-packages/feature_engine/discretisation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "10d312fba52b81070b37af2a3dc9293e3c6fd1bc1e7db113f2ef9f5e2f5aaac4",
+        "sha256_in_prefix": "10d312fba52b81070b37af2a3dc9293e3c6fd1bc1e7db113f2ef9f5e2f5aaac4",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "site-packages/feature_engine/discretisation/arbitrary.py",
+        "path_type": "hardlink",
+        "sha256": "a1fba526d71f5b202ef4ec1a6461ad5b9007adec7cd11816297f4311abd2ce1b",
+        "sha256_in_prefix": "a1fba526d71f5b202ef4ec1a6461ad5b9007adec7cd11816297f4311abd2ce1b",
+        "size_in_bytes": 6178
+      },
+      {
+        "_path": "site-packages/feature_engine/discretisation/decision_tree.py",
+        "path_type": "hardlink",
+        "sha256": "9fbeb2eaaab4616529f4182fc2d45fcf1f3143645800d03772866cae0ee85010",
+        "sha256_in_prefix": "9fbeb2eaaab4616529f4182fc2d45fcf1f3143645800d03772866cae0ee85010",
+        "size_in_bytes": 7563
+      },
+      {
+        "_path": "site-packages/feature_engine/discretisation/equal_frequency.py",
+        "path_type": "hardlink",
+        "sha256": "8bf7279549b2c91ff0cb9c6845fd929b31fa1cfee8b661350e2dbb4e9a8e8be3",
+        "sha256_in_prefix": "8bf7279549b2c91ff0cb9c6845fd929b31fa1cfee8b661350e2dbb4e9a8e8be3",
+        "size_in_bytes": 6576
+      },
+      {
+        "_path": "site-packages/feature_engine/discretisation/equal_width.py",
+        "path_type": "hardlink",
+        "sha256": "347b49fa73c2afa70a80a367ed370d9505146848d4098313f32796dbaadad82e",
+        "sha256_in_prefix": "347b49fa73c2afa70a80a367ed370d9505146848d4098313f32796dbaadad82e",
+        "size_in_bytes": 6596
+      },
+      {
+        "_path": "site-packages/feature_engine/encoding/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bc04489bd732f4e23f47b1e7b5c0ad28c14a18dcdf6ee3c039ffee1bbf29d725",
+        "sha256_in_prefix": "bc04489bd732f4e23f47b1e7b5c0ad28c14a18dcdf6ee3c039ffee1bbf29d725",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/feature_engine/encoding/base_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "614c5004957fd4e7d963bffc4d4d10c81edcd0f0731530740f65a1a03576c38f",
+        "sha256_in_prefix": "614c5004957fd4e7d963bffc4d4d10c81edcd0f0731530740f65a1a03576c38f",
+        "size_in_bytes": 7195
+      },
+      {
+        "_path": "site-packages/feature_engine/encoding/count_frequency.py",
+        "path_type": "hardlink",
+        "sha256": "8817b420229757ed9e782057cbc05438826c79a7a58a0cc946eea4cad3d0a967",
+        "sha256_in_prefix": "8817b420229757ed9e782057cbc05438826c79a7a58a0cc946eea4cad3d0a967",
+        "size_in_bytes": 5829
+      },
+      {
+        "_path": "site-packages/feature_engine/encoding/decision_tree.py",
+        "path_type": "hardlink",
+        "sha256": "f4a96bf58c3e6cef644f4aa053f35318d6678bc7be2236839b3817b71c3a13f5",
+        "sha256_in_prefix": "f4a96bf58c3e6cef644f4aa053f35318d6678bc7be2236839b3817b71c3a13f5",
+        "size_in_bytes": 9558
+      },
+      {
+        "_path": "site-packages/feature_engine/encoding/mean_encoding.py",
+        "path_type": "hardlink",
+        "sha256": "6f05723d24169a53fadbe4283e8f762790cacce51c0a5775365bbce119edbc88",
+        "sha256_in_prefix": "6f05723d24169a53fadbe4283e8f762790cacce51c0a5775365bbce119edbc88",
+        "size_in_bytes": 5385
+      },
+      {
+        "_path": "site-packages/feature_engine/encoding/one_hot.py",
+        "path_type": "hardlink",
+        "sha256": "046de1310d95679c282880874f9440b191e4fa5b528f56a67eff583c2878ec09",
+        "sha256_in_prefix": "046de1310d95679c282880874f9440b191e4fa5b528f56a67eff583c2878ec09",
+        "size_in_bytes": 11467
+      },
+      {
+        "_path": "site-packages/feature_engine/encoding/ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "a0163d0368db2148ca2e6c0aaeb57e42c444e20697b09a6e9abb23902bc97ea6",
+        "sha256_in_prefix": "a0163d0368db2148ca2e6c0aaeb57e42c444e20697b09a6e9abb23902bc97ea6",
+        "size_in_bytes": 6925
+      },
+      {
+        "_path": "site-packages/feature_engine/encoding/probability_ratio.py",
+        "path_type": "hardlink",
+        "sha256": "5ebfb04b0e47633d40869cb26a79e374be1aee86f464316edf3fbb5a76c7391a",
+        "sha256_in_prefix": "5ebfb04b0e47633d40869cb26a79e374be1aee86f464316edf3fbb5a76c7391a",
+        "size_in_bytes": 8324
+      },
+      {
+        "_path": "site-packages/feature_engine/encoding/rare_label.py",
+        "path_type": "hardlink",
+        "sha256": "d978e313828ecd9ec1a40a075397eddcfda4523fa2204f9dd57172004b5705fb",
+        "sha256_in_prefix": "d978e313828ecd9ec1a40a075397eddcfda4523fa2204f9dd57172004b5705fb",
+        "size_in_bytes": 8431
+      },
+      {
+        "_path": "site-packages/feature_engine/encoding/woe.py",
+        "path_type": "hardlink",
+        "sha256": "73c8acf16eb349a232bef29e26ec5fa1dca8f0c36d7cdc0cc6055773cec11df8",
+        "sha256_in_prefix": "73c8acf16eb349a232bef29e26ec5fa1dca8f0c36d7cdc0cc6055773cec11df8",
+        "size_in_bytes": 8956
+      },
+      {
+        "_path": "site-packages/feature_engine/imputation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "de815809a13cb1c597028fcb1ca209b4f0c3fea1a48799ad169c99a7355a90c3",
+        "sha256_in_prefix": "de815809a13cb1c597028fcb1ca209b4f0c3fea1a48799ad169c99a7355a90c3",
+        "size_in_bytes": 600
+      },
+      {
+        "_path": "site-packages/feature_engine/imputation/arbitrary_number.py",
+        "path_type": "hardlink",
+        "sha256": "1e735758be54de261adbb0970e3f8f055143fbdcb58b43a5ef128e84372f5c1b",
+        "sha256_in_prefix": "1e735758be54de261adbb0970e3f8f055143fbdcb58b43a5ef128e84372f5c1b",
+        "size_in_bytes": 4819
+      },
+      {
+        "_path": "site-packages/feature_engine/imputation/base_imputer.py",
+        "path_type": "hardlink",
+        "sha256": "fd7ec699baa1aa44a161ed5ed20dad0cc6f2a029ce43ada37fc1dfc5f5a293a6",
+        "sha256_in_prefix": "fd7ec699baa1aa44a161ed5ed20dad0cc6f2a029ce43ada37fc1dfc5f5a293a6",
+        "size_in_bytes": 2448
+      },
+      {
+        "_path": "site-packages/feature_engine/imputation/categorical.py",
+        "path_type": "hardlink",
+        "sha256": "39c8bcd2ad235568c632655c1315628d8cfe8a6ea24e50fe6196b7b36938978e",
+        "sha256_in_prefix": "39c8bcd2ad235568c632655c1315628d8cfe8a6ea24e50fe6196b7b36938978e",
+        "size_in_bytes": 7324
+      },
+      {
+        "_path": "site-packages/feature_engine/imputation/drop_missing_data.py",
+        "path_type": "hardlink",
+        "sha256": "94c0f7697a09f64e7b3efe96ec96d855005de5d7543117498d8ebab9613d58bc",
+        "sha256_in_prefix": "94c0f7697a09f64e7b3efe96ec96d855005de5d7543117498d8ebab9613d58bc",
+        "size_in_bytes": 5170
+      },
+      {
+        "_path": "site-packages/feature_engine/imputation/end_tail.py",
+        "path_type": "hardlink",
+        "sha256": "3a75e016f4b3033d8a65ff02d0394c12a54d7760134bb5cae0957594186d5a21",
+        "sha256_in_prefix": "3a75e016f4b3033d8a65ff02d0394c12a54d7760134bb5cae0957594186d5a21",
+        "size_in_bytes": 6267
+      },
+      {
+        "_path": "site-packages/feature_engine/imputation/mean_median.py",
+        "path_type": "hardlink",
+        "sha256": "6c8355f8c21982931a5a70cd4d0bd0eb4cebfcd2212ee160836d8c27da1e8357",
+        "sha256_in_prefix": "6c8355f8c21982931a5a70cd4d0bd0eb4cebfcd2212ee160836d8c27da1e8357",
+        "size_in_bytes": 3606
+      },
+      {
+        "_path": "site-packages/feature_engine/imputation/missing_indicator.py",
+        "path_type": "hardlink",
+        "sha256": "f49e7d1cc28b180b0bc6b14f1a2b1510af4f8a0ae6c758352e99f6eefaf8d35f",
+        "sha256_in_prefix": "f49e7d1cc28b180b0bc6b14f1a2b1510af4f8a0ae6c758352e99f6eefaf8d35f",
+        "size_in_bytes": 4610
+      },
+      {
+        "_path": "site-packages/feature_engine/imputation/random_sample.py",
+        "path_type": "hardlink",
+        "sha256": "560f4adc2f0448bb44d4bd2ec00580afe9eee97c1f4705fe0aa22fbed3525966",
+        "sha256_in_prefix": "560f4adc2f0448bb44d4bd2ec00580afe9eee97c1f4705fe0aa22fbed3525966",
+        "size_in_bytes": 10295
+      },
+      {
+        "_path": "site-packages/feature_engine/outliers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "949be30b817e6b8ed8c0508c3ff3888f35060f9c31f2a0992df9349e2939a3e8",
+        "sha256_in_prefix": "949be30b817e6b8ed8c0508c3ff3888f35060f9c31f2a0992df9349e2939a3e8",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "site-packages/feature_engine/outliers/artbitrary.py",
+        "path_type": "hardlink",
+        "sha256": "0f3f6460a38a777a347537e3f2a8dbb5ce519f61ccf7567ac0b06f8efc1ea1b3",
+        "sha256_in_prefix": "0f3f6460a38a777a347537e3f2a8dbb5ce519f61ccf7567ac0b06f8efc1ea1b3",
+        "size_in_bytes": 5109
+      },
+      {
+        "_path": "site-packages/feature_engine/outliers/base_outlier.py",
+        "path_type": "hardlink",
+        "sha256": "6f6500b456f432cca6d511dbb6810bb9e24a9f0a850f9fc2149eed9c35dac934",
+        "sha256_in_prefix": "6f6500b456f432cca6d511dbb6810bb9e24a9f0a850f9fc2149eed9c35dac934",
+        "size_in_bytes": 2910
+      },
+      {
+        "_path": "site-packages/feature_engine/outliers/trimmer.py",
+        "path_type": "hardlink",
+        "sha256": "9915c55277c0a2241ef6a0044f91a6571bb79a6c593f61aac5cec330760097cb",
+        "sha256_in_prefix": "9915c55277c0a2241ef6a0044f91a6571bb79a6c593f61aac5cec330760097cb",
+        "size_in_bytes": 5424
+      },
+      {
+        "_path": "site-packages/feature_engine/outliers/winsorizer.py",
+        "path_type": "hardlink",
+        "sha256": "124a213dec15fa067483dc1ed132fcd85da6f1f7621c328cf8dc3231feb32a35",
+        "sha256_in_prefix": "124a213dec15fa067483dc1ed132fcd85da6f1f7621c328cf8dc3231feb32a35",
+        "size_in_bytes": 8654
+      },
+      {
+        "_path": "site-packages/feature_engine/parameter_checks.py",
+        "path_type": "hardlink",
+        "sha256": "49d1e4b3844bf0115ac9880715dd256ea1b43e3cc2ca6641dd8954d03ddb83b9",
+        "sha256_in_prefix": "49d1e4b3844bf0115ac9880715dd256ea1b43e3cc2ca6641dd8954d03ddb83b9",
+        "size_in_bytes": 873
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "19d930d2f3b7b19bf565edb2b15bed8b426226f2fbc5e8303d640231cf7f5b81",
+        "sha256_in_prefix": "19d930d2f3b7b19bf565edb2b15bed8b426226f2fbc5e8303d640231cf7f5b81",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/base_selector.py",
+        "path_type": "hardlink",
+        "sha256": "a7fa3a8b21945f0562b6bc43ab9ae60676cc7fc9c7b8834422ed789fb28bcbf4",
+        "sha256_in_prefix": "a7fa3a8b21945f0562b6bc43ab9ae60676cc7fc9c7b8834422ed789fb28bcbf4",
+        "size_in_bytes": 1919
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/drop_constant_features.py",
+        "path_type": "hardlink",
+        "sha256": "7fd7422e38c35c17acf1fce9ffe23da406875d2d29f869ab8fef2fb30dec9994",
+        "sha256_in_prefix": "7fd7422e38c35c17acf1fce9ffe23da406875d2d29f869ab8fef2fb30dec9994",
+        "size_in_bytes": 6092
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/drop_correlated_features.py",
+        "path_type": "hardlink",
+        "sha256": "4384e7118f1658726a4feb13e9d3320650f05f353ab2bc524edef88885d8345e",
+        "sha256_in_prefix": "4384e7118f1658726a4feb13e9d3320650f05f353ab2bc524edef88885d8345e",
+        "size_in_bytes": 6322
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/drop_duplicate_features.py",
+        "path_type": "hardlink",
+        "sha256": "15fa1ae6eef5247f349030f8ef2ed36a24899e6c25f4bf1ca640b978d11a0a08",
+        "sha256_in_prefix": "15fa1ae6eef5247f349030f8ef2ed36a24899e6c25f4bf1ca640b978d11a0a08",
+        "size_in_bytes": 4714
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/drop_features.py",
+        "path_type": "hardlink",
+        "sha256": "f5fb7e501872fac47b181e68dc9ddb57ee5f9bef6f3adcad14a74aa1d17d23bd",
+        "sha256_in_prefix": "f5fb7e501872fac47b181e68dc9ddb57ee5f9bef6f3adcad14a74aa1d17d23bd",
+        "size_in_bytes": 3489
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/recursive_feature_addition.py",
+        "path_type": "hardlink",
+        "sha256": "9b43188389dbb9603f3e526d1e99d589a74f6b3a1c96467d1d73d7cf11c87ec1",
+        "sha256_in_prefix": "9b43188389dbb9603f3e526d1e99d589a74f6b3a1c96467d1d73d7cf11c87ec1",
+        "size_in_bytes": 9551
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/recursive_feature_elimination.py",
+        "path_type": "hardlink",
+        "sha256": "a9d012874a5bbe9d37c4c3bfbc48d8f037a3ae70c4fa3bfd98b9ca743a82b3d0",
+        "sha256_in_prefix": "a9d012874a5bbe9d37c4c3bfbc48d8f037a3ae70c4fa3bfd98b9ca743a82b3d0",
+        "size_in_bytes": 9284
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/shuffle_features.py",
+        "path_type": "hardlink",
+        "sha256": "59eb592e3d64c09a97750c76552acee29673fa50ef306e21b462ad271dd6c4e6",
+        "sha256_in_prefix": "59eb592e3d64c09a97750c76552acee29673fa50ef306e21b462ad271dd6c4e6",
+        "size_in_bytes": 8761
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/single_feature_performance.py",
+        "path_type": "hardlink",
+        "sha256": "0c2a5e0d4fd90bfbf2230a1ff5529f629528860c85ed80fee91f53e808a5c7b0",
+        "sha256_in_prefix": "0c2a5e0d4fd90bfbf2230a1ff5529f629528860c85ed80fee91f53e808a5c7b0",
+        "size_in_bytes": 7226
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/smart_correlation_selection.py",
+        "path_type": "hardlink",
+        "sha256": "af351d21a6f00b9b0f5c05f5967f704e9ce1de84a1ec944dd4c7b62cf622ff6d",
+        "sha256_in_prefix": "af351d21a6f00b9b0f5c05f5967f704e9ce1de84a1ec944dd4c7b62cf622ff6d",
+        "size_in_bytes": 12249
+      },
+      {
+        "_path": "site-packages/feature_engine/selection/target_mean_selection.py",
+        "path_type": "hardlink",
+        "sha256": "a59e09b0650f6251830e196164f584eb1eed73facd0d5107e5540b43047ebf14",
+        "sha256_in_prefix": "a59e09b0650f6251830e196164f584eb1eed73facd0d5107e5540b43047ebf14",
+        "size_in_bytes": 9895
+      },
+      {
+        "_path": "site-packages/feature_engine/transformation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a5a7f09942102e85c0f72d53cf583ce71e9b213cfa099e11f82da4ed4b1e7683",
+        "sha256_in_prefix": "a5a7f09942102e85c0f72d53cf583ce71e9b213cfa099e11f82da4ed4b1e7683",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "site-packages/feature_engine/transformation/boxcox.py",
+        "path_type": "hardlink",
+        "sha256": "b0551957731db2cd98fd1334a80c7fc6d931ae9931e1d7f64cb66fdc7430e90b",
+        "sha256_in_prefix": "b0551957731db2cd98fd1334a80c7fc6d931ae9931e1d7f64cb66fdc7430e90b",
+        "size_in_bytes": 5579
+      },
+      {
+        "_path": "site-packages/feature_engine/transformation/log.py",
+        "path_type": "hardlink",
+        "sha256": "539d14eccd8eb289aa60ab2286a5d137a5d320c4945ac57e5aa7dd56f80dfba7",
+        "sha256_in_prefix": "539d14eccd8eb289aa60ab2286a5d137a5d320c4945ac57e5aa7dd56f80dfba7",
+        "size_in_bytes": 13751
+      },
+      {
+        "_path": "site-packages/feature_engine/transformation/power.py",
+        "path_type": "hardlink",
+        "sha256": "2327383ecd1b8914b3c76e4d1a12be94a5b707ec31b0eeabed13c192b2f8cb4c",
+        "sha256_in_prefix": "2327383ecd1b8914b3c76e4d1a12be94a5b707ec31b0eeabed13c192b2f8cb4c",
+        "size_in_bytes": 4565
+      },
+      {
+        "_path": "site-packages/feature_engine/transformation/reciprocal.py",
+        "path_type": "hardlink",
+        "sha256": "db747d77a2ddaf8dd422b067cc31b37c5c01414246801da43fba3b1f3a225471",
+        "sha256_in_prefix": "db747d77a2ddaf8dd422b067cc31b37c5c01414246801da43fba3b1f3a225471",
+        "size_in_bytes": 5969
+      },
+      {
+        "_path": "site-packages/feature_engine/transformation/yeojohnson.py",
+        "path_type": "hardlink",
+        "sha256": "8d296a51fb0b85a6a360f1cfa29485e0f50c43a8567bf57d73b102d0bad3671d",
+        "sha256_in_prefix": "8d296a51fb0b85a6a360f1cfa29485e0f50c43a8567bf57d73b102d0bad3671d",
+        "size_in_bytes": 4046
+      },
+      {
+        "_path": "site-packages/feature_engine/validation.py",
+        "path_type": "hardlink",
+        "sha256": "ed35792edb9f7c95ae1d939bbbc7a7530c45017100de202ad69931e29381152c",
+        "sha256_in_prefix": "ed35792edb9f7c95ae1d939bbbc7a7530c45017100de202ad69931e29381152c",
+        "size_in_bytes": 2039
+      },
+      {
+        "_path": "site-packages/feature_engine/variable_manipulation.py",
+        "path_type": "hardlink",
+        "sha256": "85a6da903b1cb53791e8aff2146b1f7f1ae845b2564081fc2222becad2b7e672",
+        "sha256_in_prefix": "85a6da903b1cb53791e8aff2146b1f7f1ae845b2564081fc2222becad2b7e672",
+        "size_in_bytes": 4632
+      },
+      {
+        "_path": "site-packages/feature_engine/wrappers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8eec43a8bbdae6a835b2d92d78faf33aff79a4a2628e67f89a9cf56b4484ef35",
+        "sha256_in_prefix": "8eec43a8bbdae6a835b2d92d78faf33aff79a4a2628e67f89a9cf56b4484ef35",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "site-packages/feature_engine/wrappers/wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "4ff3c7e655a2669034972abf8f5c0cde6dab8ab22d6ada6c35007bff1278b38f",
+        "sha256_in_prefix": "4ff3c7e655a2669034972abf8f5c0cde6dab8ab22d6ada6c35007bff1278b38f",
+        "size_in_bytes": 6495
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/__pycache__/base_transformers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/creation/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/creation/__pycache__/combine_with_reference_feature.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/creation/__pycache__/cyclical.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/creation/__pycache__/mathematical_combination.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/__pycache__/dataframe_checks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/discretisation/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/discretisation/__pycache__/arbitrary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/discretisation/__pycache__/decision_tree.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/discretisation/__pycache__/equal_frequency.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/discretisation/__pycache__/equal_width.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/base_encoder.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/count_frequency.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/decision_tree.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/mean_encoding.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/one_hot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/ordinal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/probability_ratio.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/rare_label.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/encoding/__pycache__/woe.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/arbitrary_number.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/base_imputer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/categorical.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/drop_missing_data.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/end_tail.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/mean_median.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/missing_indicator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/imputation/__pycache__/random_sample.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/outliers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/outliers/__pycache__/artbitrary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/outliers/__pycache__/base_outlier.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/outliers/__pycache__/trimmer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/outliers/__pycache__/winsorizer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/__pycache__/parameter_checks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/base_selector.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/drop_constant_features.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/drop_correlated_features.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/drop_duplicate_features.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/drop_features.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/recursive_feature_addition.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/recursive_feature_elimination.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/shuffle_features.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/single_feature_performance.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/smart_correlation_selection.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/selection/__pycache__/target_mean_selection.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/boxcox.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/log.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/power.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/reciprocal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/transformation/__pycache__/yeojohnson.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/__pycache__/validation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/__pycache__/variable_manipulation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/wrappers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/feature_engine/wrappers/__pycache__/wrappers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "feature_engine",
+  "sha256": "4ce5e43795fe9d5016e4726304a2a9776435440a6019d37d216e40bf4b9c41ee",
+  "size": 55567,
+  "subdir": "noarch",
+  "timestamp": 1630482388695,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/feature_engine-1.1.2-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.1.2"
+}
